@@ -1,0 +1,139 @@
+{
+ "initial_loss": 0.2748629616482994,
+ "grad_check": {
+  "analytic": 0.0009208407919779971,
+  "numeric": 0.0009208407925065387
+ },
+ "lr": [
+  {
+   "lr": 0.05,
+   "final_mse": 0.0023148689882716935,
+   "converged": false,
+   "epoch_mse_below_0_05": 7721,
+   "epochs_loss_rose": 0,
+   "max_rise": -2.1081342438432696e-07,
+   "outputs": [
+    0.039,
+    0.953,
+    0.954,
+    0.058
+   ]
+  },
+  {
+   "lr": 0.5,
+   "final_mse": 0.00011144618732742168,
+   "converged": true,
+   "epoch_mse_below_0_05": 774,
+   "epochs_loss_rose": 0,
+   "max_rise": -6.2581714632383356e-09,
+   "outputs": [
+    0.008,
+    0.989,
+    0.991,
+    0.013
+   ]
+  },
+  {
+   "lr": 2.0,
+   "final_mse": 2.4552864803967293e-05,
+   "converged": true,
+   "epoch_mse_below_0_05": 194,
+   "epochs_loss_rose": 0,
+   "max_rise": -1.3154285732032357e-09,
+   "outputs": [
+    0.004,
+    0.995,
+    0.996,
+    0.006
+   ]
+  },
+  {
+   "lr": 10.0,
+   "final_mse": 5.80714908805568e-06,
+   "converged": true,
+   "epoch_mse_below_0_05": 63,
+   "epochs_loss_rose": 23,
+   "max_rise": 0.1552151398321393,
+   "outputs": [
+    0.002,
+    0.998,
+    0.998,
+    0.003
+   ]
+  }
+ ],
+ "zero_init": {
+  "final_mse": 0.25,
+  "W1": [
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "outputs": [
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ]
+ },
+ "best_lr": 2.0,
+ "lr_probe": [
+  {
+   "lr": 20.0,
+   "final_mse": 2.958590650790872e-06,
+   "converged": true,
+   "max_jump": 0.22106567612559835,
+   "outputs": [
+    0.001,
+    0.998,
+    0.998,
+    0.002
+   ]
+  },
+  {
+   "lr": 50.0,
+   "final_mse": 0.4999999882786363,
+   "converged": false,
+   "max_jump": 0.2591856710062878,
+   "outputs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "lr": 100.0,
+   "final_mse": 0.49999999994878275,
+   "converged": false,
+   "max_jump": 0.2251370383006791,
+   "outputs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "lr": 200.0,
+   "final_mse": 0.5,
+   "converged": false,
+   "max_jump": 0.22513703835170062,
+   "outputs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ ]
+}

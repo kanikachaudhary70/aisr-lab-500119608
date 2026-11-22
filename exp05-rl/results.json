@@ -1,0 +1,96 @@
+{
+ "optimal_return": 9.1,
+ "eps": [
+  {
+   "eps": 0.01,
+   "mean_last100": 9.08,
+   "first_goal_episode": 3,
+   "greedy_return": 9.1,
+   "optimal_cells": 26,
+   "free_cells": 28,
+   "seeds_mean": 9.0678,
+   "seeds_sd": 0.06117156202027187
+  },
+  {
+   "eps": 0.1,
+   "mean_last100": 8.997000000000002,
+   "first_goal_episode": 1,
+   "greedy_return": 9.1,
+   "optimal_cells": 26,
+   "free_cells": 28,
+   "seeds_mean": 8.825700000000001,
+   "seeds_sd": 0.24565058518147265
+  },
+  {
+   "eps": 0.2,
+   "mean_last100": 8.857999999999999,
+   "first_goal_episode": 3,
+   "greedy_return": 9.1,
+   "optimal_cells": 28,
+   "free_cells": 28,
+   "seeds_mean": 8.8105,
+   "seeds_sd": 0.06442243398071823
+  },
+  {
+   "eps": 0.5,
+   "mean_last100": 7.442,
+   "first_goal_episode": 0,
+   "greedy_return": 9.1,
+   "optimal_cells": 28,
+   "free_cells": 28,
+   "seeds_mean": 7.538600000000001,
+   "seeds_sd": 0.37528421229782644
+  }
+ ],
+ "params": {
+  "H": 5,
+  "W": 7,
+  "walls": [
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    2
+   ]
+  ],
+  "goal": [
+   0,
+   6
+  ],
+  "pit": [
+   2,
+   6
+  ],
+  "start": [
+   4,
+   0
+  ],
+  "alpha": 0.5,
+  "gamma": 0.95,
+  "episodes": 600,
+  "cap": 120,
+  "seed": 0
+ },
+ "policy_grid_eps020": [
+  "\u2192 \u2192 \u2192 \u2192 \u2192 \u2192 G",
+  "\u2192 \u2191 # \u2191 # \u2191 \u2191",
+  "\u2191 \u2191 # \u2191 # \u2191 P",
+  "\u2191 \u2191 # \u2191 \u2192 \u2191 \u2190",
+  "\u2191 \u2192 \u2192 \u2191 \u2192 \u2191 \u2190"
+ ],
+ "policy_agreement_020_050": 21
+}

@@ -1,0 +1,13 @@
+held_out,training,trained_on,obs,success_rate,median_error_cm,n,mean_steps
+kuka_iiwa,single,franka_panda,agnostic,1.0,0.11367541300309403,20,50.65
+kuka_iiwa,single,franka_panda,proprio,0.0,32.39669991470224,20,nan
+kuka_iiwa,multi,franka_panda+xarm6,agnostic,1.0,0.632385150856043,20,51.15
+kuka_iiwa,multi,franka_panda+xarm6,proprio,0.0,32.39669991470224,20,nan
+franka_panda,single,kuka_iiwa,agnostic,1.0,0.8590502885266453,20,51.05
+franka_panda,single,kuka_iiwa,proprio,0.05,32.8101925126704,20,179.0
+franka_panda,multi,kuka_iiwa+xarm6,agnostic,1.0,0.27569349014908856,20,49.85
+franka_panda,multi,kuka_iiwa+xarm6,proprio,0.0,26.80391664906045,20,nan
+xarm6,single,kuka_iiwa,agnostic,1.0,0.6507721656449461,20,52.35
+xarm6,single,kuka_iiwa,proprio,0.0,32.39669991470224,20,nan
+xarm6,multi,kuka_iiwa+franka_panda,agnostic,1.0,0.2390185324602283,20,47.85
+xarm6,multi,kuka_iiwa+franka_panda,proprio,0.0,32.39669991470224,20,nan

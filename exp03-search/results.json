@@ -1,0 +1,26 @@
+{
+ "bfs": {
+  "expanded": 364,
+  "path_steps": 68,
+  "path_cells": 69,
+  "valid": true,
+  "max_frontier": 11
+ },
+ "dfs": {
+  "expanded": 89,
+  "path_steps": 84,
+  "path_cells": 85,
+  "valid": true,
+  "max_frontier": 11
+ },
+ "maze": {
+  "H": 23,
+  "W": 35,
+  "open": 388
+ },
+ "true_shortest": 68,
+ "dfs_fewer_random_goals": {
+  "wins": 99,
+  "trials": 200
+ }
+}

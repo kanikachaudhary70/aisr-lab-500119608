@@ -1,0 +1,2 @@
+robot,n,success_rate,mean_steps,median_error_cm
+kuka_mini,20,1.0,50.55,0.14951050215428396
